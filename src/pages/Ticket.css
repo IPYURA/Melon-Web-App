@@ -1,0 +1,134 @@
+/*----- Ticket.js -----*/
+.Ticket {
+  background: #191919;
+}
+
+/*----- SectionTitle.js -----*/
+.SectionTitle {
+  font-size: 2rem;
+  text-align: center;
+  color: #fafafa;
+}
+
+/*----- Performance.js -----*/
+.Performance {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 1.2rem 1.7rem;
+  padding-bottom: 3rem;
+}
+.performanceItemBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*----- PerformanceItem.js -----*/
+.PerformanceItem {
+  width: 15.6rem;
+}
+.PerformanceItem .performanceImg {
+  width: 100%;
+  height: 21.2rem;
+  margin-bottom: 0.5rem;
+}
+.PerformanceItem .performanceDesc .performanceTitle {
+  width: 100%;
+  height: auto;
+  font-size: 1.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  color: #fafafa;
+}
+.PerformanceItem .performanceDesc p {
+  font-size: 1.3rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  color: #fafafa;
+}
+
+/*----- TicketOpen.js -----*/
+.TicketOpen {
+  padding: 0 1.7rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/*----- TicketOpenItem.js -----*/
+.TicketOpenItem {
+  width: 100%;
+  padding: 1.7rem 0;
+  border-bottom: 1px solid #fafafa;
+  display: flex;
+}
+.TicketOpenItem > img {
+  width: 6.8rem;
+  height: 9.6rem;
+}
+.TicketOpenItem .descBox {
+  width: calc(100% - 6.8rem);
+  padding-left: 1rem;
+}
+.TicketOpenItem .descContent {
+  font-size: 1.5rem;
+  color: #fafafa;
+}
+.TicketOpenItem .opendate {
+  font-size: 1.3rem;
+  color: #00d105;
+}
+
+/*----- Concert.js -----*/
+.Concert {
+  padding: 0 1.7rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/*----- ConcertItem.js -----*/
+.ConcertItem {
+  padding: 1.5rem 0;
+  display: flex;
+  border-bottom: 1px solid #fafafa;
+}
+.ConcertItem .rank {
+  width: 1.9rem;
+  font-size: 2.4rem;
+  color: #fafafa;
+}
+.ConcertItem .concertImg {
+  width: 10.2rem;
+  height: 14.4rem;
+}
+.ConcertItem .concertDesc {
+  width: calc(100% - 1.9rem - 10.2rem);
+  padding: 0.9rem 0 0.9rem 1.1rem;
+}
+.ConcertItem .concertDesc .concertTitle {
+  font-size: 1.5rem;
+  color: #fafafa;
+  margin-bottom: 5.1rem;
+  word-break: keep-all;
+}
+.ConcertItem .concertDesc .concertDate,
+.concertPlace {
+  font-size: 1.4rem;
+  color: #fafafa;
+  word-break: keep-all;
+}
+
+/*----- BottomLinkBtn.js -----*/
+.BottomLinkBtn {
+  width: 30rem;
+  height: 3rem;
+  margin: 4rem auto -2rem;
+  border: 1px solid #00d105;
+  border-radius: 32px;
+  color: #00d105;
+  background: transparent;
+}

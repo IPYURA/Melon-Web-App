@@ -1,0 +1,96 @@
+/* ----- MelonChart.js -----*/
+.MelonChart {
+  padding: 0 17px 30px;
+  background: #191919;
+}
+.MelonChart .topMenu {
+  position: relative;
+  width: 100%;
+  height: 72px;
+  margin-bottom: 7px;
+}
+.topBtn {
+  width: 80px;
+  height: 30px;
+  border-radius: 16px;
+  color: #fafafa;
+  position: absolute;
+}
+.leftBtn {
+  background: #00d105;
+  top: 9px;
+  left: 0;
+  border: none;
+}
+.rightBtn {
+  background: transparent;
+  top: 9px;
+  left: calc(8rem + 9px);
+  border: 1px solid #eee;
+}
+.topMenu > div {
+  position: absolute;
+  display: block;
+  bottom: 9px;
+  right: 0;
+  color: #fafafa;
+  font-size: 14px;
+}
+
+/* ----- ChartItem.js -----*/
+.ChartItem {
+  width: 100%;
+  height: 60px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 17px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.chartItemImg {
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+}
+.itemDesc {
+  width: 250px;
+  height: 40px;
+  display: flex;
+}
+.itemDesc .rankBox {
+  width: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+.rankBox .rank {
+  font-size: 14px;
+  color: #fafafa;
+}
+.rankBox .rankBar {
+  font-size: 14px;
+  color: #bfbfbf;
+}
+.titleArtist,
+.songTitle {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.itemDesc .titleArtist {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.titleArtist .songTitle {
+  font-size: 16px;
+  color: #fafafa;
+}
+.titleArtist .songArtist {
+  font-size: 14px;
+  color: #bfbfbf;
+}

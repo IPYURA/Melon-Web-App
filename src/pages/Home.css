@@ -1,0 +1,95 @@
+/*----- Home.js -----*/
+.Home {
+  width: 100%;
+  background: #191919;
+}
+.titleWrap {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 0 17px;
+  margin-bottom: 16px;
+  justify-content: space-between;
+}
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fafafa;
+}
+.titleWrap > button {
+  background: transparent;
+  border: none;
+  font-size: 15px;
+  color: #a6a6a6;
+}
+.contentWrap {
+  width: 348px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+}
+.content {
+  width: 160px;
+  height: 212px;
+  padding: 0 0 7px;
+  position: relative;
+}
+.songsAmount {
+  position: absolute;
+  color: #fafafa;
+  top: 5px;
+  left: 5px;
+}
+.play {
+  position: absolute;
+  background: transparent;
+  color: #fafafa;
+  border: none;
+  font-size: 10px;
+  top: 10px;
+  right: 10px;
+}
+.content .albumImg {
+  width: 100%;
+  height: 160px;
+  background: #ff0;
+  border-radius: 4px;
+  background: no-repeat center center/cover;
+  margin-bottom: 5px;
+}
+.content:nth-child(1) .albumImg {
+  background-image: url("https://cdnimg.melon.co.kr/cm2/album/images/113/76/718/11376718_20231201113058_500.jpg?f79d4fa63a81c5ff1b5a3a1a2916e122/melon/optimize/90");
+}
+.content:nth-child(2) .albumImg {
+  background-image: url("https://cdnimg.melon.co.kr/cm2/album/images/113/76/560/11376560_20231130165346_500.jpg?96592d2d0e0700a695742d7a5ca8c7a3/melon/optimize/90");
+}
+.content:nth-child(3) .albumImg {
+  background-image: url("https://cdnimg.melon.co.kr/cm2/album/images/113/76/964/11376964_20231201143240_500.jpg?5884fe2f1246d801c817b9084a3f2940/melon/optimize/90");
+}
+.content:nth-child(4) .albumImg {
+  background-image: url("https://cdnimg.melon.co.kr/cm2/album/images/113/76/746/11376746_20231201114951_500.jpg?d15c0fa5fedfec7f4fc36fc9297297ac/melon/optimize/90");
+}
+.content:nth-child(5) .albumImg {
+  background-image: url("https://cdnimg.melon.co.kr/cm2/album/images/113/76/787/11376787_20231201120527_500.jpg?69bec9a5ad90f8409c4ded4496f2ce8a/melon/optimize/90");
+}
+.content:nth-child(6) .albumImg {
+  background-image: url("https://cdnimg.melon.co.kr/cm2/album/images/113/76/478/11376478_20231130160102_500.jpg?9faea228790b3b12d1f8a49e57917143/melon/optimize/90");
+}
+.albumTitle,
+.albumArtist {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.albumTitle {
+  color: #fafafa;
+  font-size: 15px;
+}
+.albumArtist {
+  color: #fafafa;
+  font-size: 13px;
+  color: #00d105;
+}

@@ -1,0 +1,115 @@
+.Menu {
+  padding: 17px;
+  background: #191919;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  z-index: 1;
+  transition: 0.3s;
+}
+.Menu.active {
+  left: 0%;
+}
+.exitBtn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  position: relative;
+  position: absolute;
+  right: 17px;
+  background: transparent;
+  cursor: pointer;
+}
+.exitBtn > span {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  display: block;
+  background: #ccc;
+}
+.exitBtn > span:first-child {
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+.exitBtn > span:last-child {
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+.profileBox {
+  width: 100%;
+  display: flex;
+  gap: 11px;
+  margin-bottom: 17px;
+}
+.profileBox .profileImg {
+  width: 56px;
+  height: 56px;
+  border: 2px solid #00d105;
+  border-radius: 50%;
+  background: url("../imgs/unknown.png") no-repeat center center / cover;
+}
+.profileBox .profileName {
+  height: 56px;
+  line-height: 56px;
+  font-size: 18px;
+}
+.purchaseBox {
+  width: 100%;
+  margin-bottom: 17px;
+}
+.purchaseBox > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.purchaseBox > div:first-child {
+  margin-bottom: 13px;
+}
+.purchaseBox .purchaseText {
+  font-size: 13px;
+}
+.greentext {
+  color: #00d105;
+}
+.graytext {
+  color: #bfbfbf;
+}
+.whitetext {
+  color: #fff;
+}
+.purchaseBtn {
+  width: 63px;
+  height: 18px;
+  background: transparent;
+  border: 1px solid rgba(225, 225, 225, 0.7);
+  border-radius: 16px;
+  color: rgba(225, 225, 225, 0.7);
+  font-size: 10px;
+}
+.menuItemBox {
+  width: 100%;
+}
+
+/* MenuItem */
+.MenuItem {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.MenuItem > img {
+  width: 36px;
+  height: 36px;
+  filter: invert();
+}
+.MenuItem > div {
+  height: 64px;
+  line-height: 64px;
+  color: #fafafa;
+  font-size: 15px;
+}

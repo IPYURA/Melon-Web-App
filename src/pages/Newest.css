@@ -1,0 +1,38 @@
+.Newest {
+  background: #191919;
+  color: #fafafa;
+  padding: 10px 17px 30px;
+}
+.Newest .newestItem {
+  width: 326px;
+  height: 112px;
+  padding: 11px 0;
+  display: flex;
+  gap: 11px;
+}
+.newestItem img {
+  width: 90px;
+  height: 90px;
+  border-radius: 4px;
+  background: green;
+}
+.newestDesc {
+  padding-top: 4px;
+  width: 210px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.newestTitle {
+  font-size: 15px;
+  color: #fafafa;
+}
+.newestArtist {
+  font-size: 14px;
+  color: #bfbfbf;
+}
+.newestDate {
+  font-size: 12px;
+  color: #a6a6a6;
+}
